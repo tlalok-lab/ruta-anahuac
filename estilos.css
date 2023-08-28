@@ -1,7 +1,7 @@
 .social-menu {
   
   background-color: rgba(0, 0, 0, .2);
-
+  padding: 10px;
   position: fixed;
   top: 85vh;
   margin-top: -66px;
@@ -21,10 +21,17 @@
 
 @media (min-width: 800px) and (max-width: 1280px) {
 
-
+.iconsocials {
+  font-size:22px;
+}
 }
 
-@media (min-width: 1280px) {}
+@media (min-width: 1280px) {
+  .iconsocials {
+    font-size:28px;
+  }
+ 
+}
 
 .social-menu ul {
   list-style: none;
